@@ -1,0 +1,25 @@
+import { Header } from "@/components/header"
+import { HeroSection } from "@/components/hero-section"
+import { ServicesOverview } from "@/components/services-overview"
+import { ProgramsSection } from "@/components/programs-section"
+import { MissionSection } from "@/components/mission-section"
+import { QuickActions } from "@/components/quick-actions"
+import { GetInvolvedSection } from "@/components/get-involved-section"
+import { Footer } from "@/components/footer"
+
+export default function HomePage() {
+  return (
+    <div className="min-h-screen">
+      <Header />
+      <main>
+        <HeroSection />
+        <ServicesOverview />
+        <ProgramsSection />
+        <MissionSection />
+        <QuickActions />
+        <GetInvolvedSection />
+      </main>
+      <Footer />
+    </div>
+  )
+}
