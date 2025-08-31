@@ -202,13 +202,11 @@ export default function ResourcesPage() {
                           </div>
                           {resource.readTime && (
                             <div className="flex items-center gap-2">
-                              <BookOpen className="h-4 w-4" />
                               <span>{resource.readTime}</span>
                             </div>
                           )}
                           {resource.pages && (
                             <div className="flex items-center gap-2">
-                              <BookOpen className="h-4 w-4" />
                               <span>{resource.pages}</span>
                             </div>
                           )}
@@ -294,7 +292,6 @@ export default function ResourcesPage() {
                         </div>
                         {(resource.readTime || resource.pages || resource.duration) && (
                           <div className="flex items-center gap-2">
-                            <BookOpen className="h-3 w-3" />
                             <span>{resource.readTime || resource.pages || resource.duration}</span>
                           </div>
                         )}
