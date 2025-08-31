@@ -1,5 +1,4 @@
 import { Button } from "@/components/ui/button";
-import { BookOpen, Heart, Calendar, ArrowRight, Check } from "lucide-react";
 
 export default function ServicesOverview() {
 	return (
@@ -20,12 +19,6 @@ export default function ServicesOverview() {
 					{/* Discipleship Programs */}
 					<div className="grid lg:grid-cols-2 gap-16 items-center">
 						<div className="space-y-8">
-							<div className="relative">
-								<div className="w-20 h-20 bg-gradient-to-br from-primary/20 to-primary/10 rounded-3xl flex items-center justify-center shadow-lg">
-									<BookOpen className="h-10 w-10 text-primary" />
-								</div>
-							</div>
-
 							<div className="space-y-6">
 								<h3 className="text-3xl md:text-4xl font-bold text-foreground leading-tight text-balance">
 									Discipleship Programs
@@ -48,9 +41,6 @@ export default function ServicesOverview() {
 										key={index}
 										className="flex items-center gap-3 text-muted-foreground"
 									>
-										<div className="w-6 h-6 bg-accent/20 rounded-full flex items-center justify-center flex-shrink-0">
-											<Check className="h-3.5 w-3.5 text-accent" />
-										</div>
 										<span className="text-base font-medium">
 											{feature}
 										</span>
@@ -63,7 +53,6 @@ export default function ServicesOverview() {
 								className="flex items-center gap-3 px-8 py-4 text-lg font-semibold rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300"
 							>
 								Explore Programs
-								<ArrowRight className="h-5 w-5" />
 							</Button>
 						</div>
 
@@ -89,12 +78,6 @@ export default function ServicesOverview() {
 						</div>
 
 						<div className="space-y-8 lg:order-2">
-							<div className="relative">
-								<div className="w-20 h-20 bg-gradient-to-br from-primary/20 to-primary/10 rounded-3xl flex items-center justify-center shadow-lg">
-									<Heart className="h-10 w-10 text-primary" />
-								</div>
-							</div>
-
 							<div className="space-y-6">
 								<h3 className="text-3xl md:text-4xl font-bold text-foreground leading-tight text-balance">
 									Soul Care Services
@@ -117,9 +100,6 @@ export default function ServicesOverview() {
 										key={index}
 										className="flex items-center gap-3 text-muted-foreground"
 									>
-										<div className="w-6 h-6 bg-accent/20 rounded-full flex items-center justify-center flex-shrink-0">
-											<Check className="h-3.5 w-3.5 text-accent" />
-										</div>
 										<span className="text-base font-medium">
 											{feature}
 										</span>
@@ -132,7 +112,6 @@ export default function ServicesOverview() {
 								className="flex items-center gap-3 px-8 py-4 text-lg font-semibold rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300"
 							>
 								Get Support
-								<ArrowRight className="h-5 w-5" />
 							</Button>
 						</div>
 					</div>
@@ -140,12 +119,6 @@ export default function ServicesOverview() {
 					{/* Community & Events */}
 					<div className="grid lg:grid-cols-2 gap-16 items-center">
 						<div className="space-y-8">
-							<div className="relative">
-								<div className="w-20 h-20 bg-gradient-to-br from-primary/20 to-primary/10 rounded-3xl flex items-center justify-center shadow-lg">
-									<Calendar className="h-10 w-10 text-primary" />
-								</div>
-							</div>
-
 							<div className="space-y-6">
 								<h3 className="text-3xl md:text-4xl font-bold text-foreground leading-tight text-balance">
 									Community & Events
@@ -168,9 +141,6 @@ export default function ServicesOverview() {
 										key={index}
 										className="flex items-center gap-3 text-muted-foreground"
 									>
-										<div className="w-6 h-6 bg-accent/20 rounded-full flex items-center justify-center flex-shrink-0">
-											<Check className="h-3.5 w-3.5 text-accent" />
-										</div>
 										<span className="text-base font-medium">
 											{feature}
 										</span>
@@ -183,7 +153,6 @@ export default function ServicesOverview() {
 								className="flex items-center gap-3 px-8 py-4 text-lg font-semibold rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300"
 							>
 								View Events
-								<ArrowRight className="h-5 w-5" />
 							</Button>
 						</div>
 
