@@ -34,7 +34,7 @@ export default function EventsPage() {
       spots: 25,
       registered: 18,
       price: "Ksh 3,600",
-      image: "/mountain-retreat.jpg",
+      image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       featured: true,
     },
     {
@@ -90,7 +90,7 @@ export default function EventsPage() {
       spots: 15,
       registered: 8,
       price: "Ksh 2,000",
-      image: "/womens-study.jpg",
+      image: "https://images.unsplash.com/photo-1519741497674-611481863552?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       featured: true,
     },
     {
