@@ -20,10 +20,6 @@ export default function ProgramsSection() {
 					{/* Bible Study Groups - Left aligned */}
 					<div className="grid lg:grid-cols-2 gap-16 items-center">
 						<div className="space-y-8">
-							<div className="w-20 h-20 bg-primary/10 rounded-3xl flex items-center justify-center shadow-sm border border-primary/5">
-								<BookOpen className="h-10 w-10 text-primary" />
-							</div>
-
 							<div className="space-y-6">
 								<h3 className="text-3xl md:text-4xl font-bold text-foreground leading-tight text-balance">
 									Bible Study Groups
@@ -85,10 +81,6 @@ export default function ProgramsSection() {
 						</div>
 
 						<div className="space-y-8 lg:order-2">
-							<div className="w-20 h-20 bg-primary/10 rounded-3xl flex items-center justify-center shadow-sm border border-primary/5">
-								<Users className="h-10 w-10 text-primary" />
-							</div>
-
 							<div className="space-y-6">
 								<h3 className="text-3xl md:text-4xl font-bold text-foreground leading-tight text-balance">
 									Discipleship Training
@@ -132,10 +124,6 @@ export default function ProgramsSection() {
 					{/* Life Groups - Left aligned */}
 					<div className="grid lg:grid-cols-2 gap-16 items-center">
 						<div className="space-y-8">
-							<div className="w-20 h-20 bg-primary/10 rounded-3xl flex items-center justify-center shadow-sm border border-primary/5">
-								<Heart className="h-10 w-10 text-primary" />
-							</div>
-
 							<div className="space-y-6">
 								<h3 className="text-3xl md:text-4xl font-bold text-foreground leading-tight text-balance">
 									Life Groups
