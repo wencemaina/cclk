@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import { BookOpen, Users, Heart, ArrowRight, Check } from "lucide-react";
 
 export default function ProgramsSection() {
 	return (
@@ -47,9 +46,6 @@ export default function ProgramsSection() {
 										key={index}
 										className="flex items-center gap-3 text-muted-foreground"
 									>
-										<div className="w-6 h-6 bg-accent/20 rounded-full flex items-center justify-center flex-shrink-0">
-											<Check className="h-3 w-3 text-accent" />
-										</div>
 										<span className="text-base">
 											{feature}
 										</span>
@@ -63,7 +59,6 @@ export default function ProgramsSection() {
 									className="flex items-center gap-3 px-8 py-6 text-lg font-semibold rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300"
 								>
 									Join a Group
-									<ArrowRight className="h-5 w-5" />
 								</Button>
 							</div>
 						</div>
@@ -116,9 +111,6 @@ export default function ProgramsSection() {
 										key={index}
 										className="flex items-center gap-3 text-muted-foreground"
 									>
-										<div className="w-6 h-6 bg-accent/20 rounded-full flex items-center justify-center flex-shrink-0">
-											<Check className="h-3 w-3 text-accent" />
-										</div>
 										<span className="text-base">
 											{feature}
 										</span>
@@ -132,7 +124,6 @@ export default function ProgramsSection() {
 									className="flex items-center gap-3 px-8 py-6 text-lg font-semibold rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300"
 								>
 									Start Training
-									<ArrowRight className="h-5 w-5" />
 								</Button>
 							</div>
 						</div>
@@ -168,9 +159,6 @@ export default function ProgramsSection() {
 										key={index}
 										className="flex items-center gap-3 text-muted-foreground"
 									>
-										<div className="w-6 h-6 bg-accent/20 rounded-full flex items-center justify-center flex-shrink-0">
-											<Check className="h-3 w-3 text-accent" />
-										</div>
 										<span className="text-base">
 											{feature}
 										</span>
@@ -184,7 +172,6 @@ export default function ProgramsSection() {
 									className="flex items-center gap-3 px-8 py-6 text-lg font-semibold rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300"
 								>
 									Find Your Group
-									<ArrowRight className="h-5 w-5" />
 								</Button>
 							</div>
 						</div>
@@ -211,7 +198,6 @@ export default function ProgramsSection() {
 							className="flex items-center gap-3"
 						>
 							Explore All Programs
-							<ArrowRight className="h-5 w-5" />
 						</Link>
 					</Button>
 				</div>
