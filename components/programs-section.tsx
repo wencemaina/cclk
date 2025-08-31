@@ -16,7 +16,7 @@ export default function ProgramsSection() {
 					</p>
 				</div>
 
-				<div className="space-y-32">
+				<div className="space-y-40">
 					{/* Bible Study Groups - Left aligned */}
 					<div className="grid lg:grid-cols-2 gap-16 items-center">
 						<div className="space-y-8">
