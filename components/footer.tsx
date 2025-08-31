@@ -46,8 +46,11 @@ export function Footer() {
 								variant="ghost"
 								size="sm"
 								className="text-white hover:text-accent"
+								asChild
 							>
-								<Facebook className="h-5 w-5" />
+								<Link href="https://www.facebook.com/share/1EJheWY49n/" target="_blank" rel="noopener noreferrer">
+									<Facebook className="h-5 w-5" />
+								</Link>
 							</Button>
 							<Button
 								variant="ghost"
