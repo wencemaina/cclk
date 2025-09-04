@@ -35,7 +35,7 @@ export function Footer() {
 				<div className="grid md:grid-cols-4 gap-8">
 					{/* Organization Info */}
 					<div className="space-y-4">
-						<h3 className="text-2xl font-bold">CCLK</h3>
+						<h3 className="text-2xl font-bold">CCMWA</h3>
 						<p className="text-white/80 text-sm leading-relaxed">
 							Growing together in faith and community through
 							discipleship, soul care, and authentic
@@ -104,7 +104,7 @@ export function Footer() {
 							<div className="flex items-center gap-3 text-sm">
 								<Mail className="h-4 w-4 text-accent" />
 								<span className="text-white/80">
-									info@cclk.org
+									info@ccmwa.org
 								</span>
 							</div>
 							<div className="flex items-start gap-3 text-sm">
@@ -123,7 +123,7 @@ export function Footer() {
 
 				<div className="border-t border-white/20 mt-8 pt-8 text-center">
 					<p className="text-white/60 text-sm">
-						© 2024 CCLK. All rights reserved. | Privacy Policy |
+						© 2024 CCMWA. All rights reserved. | Privacy Policy |
 						Terms of Service
 					</p>
 				</div>
