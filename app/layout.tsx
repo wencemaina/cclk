@@ -8,9 +8,9 @@ import { Suspense } from "react"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "CCLK - Soul-Care. Wellness. Discipleship.", // Updated organization name to CCLK
+  title: "CCMWA - Soul-Care. Wellness. Discipleship.", // Updated organization name to CCMWA
   description: "Christ-centered counseling and soul-care rooted in the sufficiency of Scripture, nurturing hope, healing, and transformation in Christ.",
-  
+
 }
 
 export default function RootLayout({
