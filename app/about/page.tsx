@@ -57,8 +57,8 @@ export default function AboutPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-b from-primary/5 to-background py-16">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">About CCLK</h1>{" "}
-            {/* Updated organization name to CCLK */}
+            <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">About CCMWA</h1>{" "}
+            {/* Updated organization name to CCMWA */}
             <p className="text-xl text-muted-foreground text-pretty">
               Founded in 2010, we've been walking alongside individuals and families on their journey of faith, healing,
               and spiritual growth for over a decade.
@@ -72,8 +72,8 @@ export default function AboutPage() {
             <h2 className="text-3xl font-bold text-foreground mb-8 text-center">Our Story</h2>
             <div className="prose prose-lg max-w-none text-muted-foreground">
               <p className="leading-relaxed mb-6">
-                CCLK began with a simple vision: to create a place where faith and professional care intersect to{" "}
-                {/* Updated organization name to CCLK */}
+                CCMWA began with a simple vision: to create a place where faith and professional care intersect to{" "}
+                {/* Updated organization name to CCMWA */}
                 bring healing and hope to our community. What started as a small group meeting in a living room has
                 grown into a comprehensive ministry serving hundreds of individuals and families.
               </p>
@@ -156,7 +156,7 @@ export default function AboutPage() {
               <p className="text-lg text-muted-foreground leading-relaxed mb-6">
                 At CCMWA, our faith is grounded in the Word of God and the hope of the gospel. In summary, we believe:
               </p>
-              
+
               <div className="grid md:grid-cols-2 gap-4 text-muted-foreground">
                 <div className="space-y-2">
                   <p className="flex items-start gap-2">
@@ -207,7 +207,7 @@ export default function AboutPage() {
                   </p>
                 </div>
               </div>
-              
+
               <div className="mt-8 text-center">
                 <p className="text-primary font-medium">➡️ For our full Statement of Faith, see detailed section below.</p>
               </div>
@@ -222,7 +222,7 @@ export default function AboutPage() {
             <p className="text-lg text-muted-foreground text-center mb-12 max-w-4xl mx-auto">
               At CCMWA, we are committed to the authority of Scripture, the centrality of Christ, and the transformative work of the gospel in every aspect of life. Our faith shapes our mission of soul-care, wellness, and discipleship.
             </p>
-            
+
             <div className="grid lg:grid-cols-2 gap-8">
               <Card className="h-full">
                 <CardHeader>
@@ -364,7 +364,7 @@ export default function AboutPage() {
         <section className="py-16">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold text-foreground mb-8 text-center">CCMWA Faith Tradition and Theological Approach</h2>
-            
+
             <div className="max-w-4xl mx-auto space-y-8">
               <div className="text-center bg-primary/5 rounded-lg p-8">
                 <p className="text-lg text-muted-foreground mb-4">
@@ -382,21 +382,21 @@ export default function AboutPage() {
                 <blockquote className="border-l-4 border-primary pl-4 italic text-primary">
                   "Your word is a lamp for my feet, a light on my path." (Psalm 119:105)
                 </blockquote>
-                
+
                 <p className="leading-relaxed">
                   We affirm the sufficiency of Scripture:
                 </p>
                 <blockquote className="border-l-4 border-primary pl-4 italic text-primary">
                   "All Scripture is breathed out by God and profitable for teaching, for reproof, for correction, and for training in righteousness, that the man of God may be complete, equipped for every good work." (2 Timothy 3:16–17)
                 </blockquote>
-                
+
                 <p className="leading-relaxed">
                   And we trust in its power to reach the depths of the human heart:
                 </p>
                 <blockquote className="border-l-4 border-primary pl-4 italic text-primary">
                   "For the word of God is living and active, sharper than any two-edged sword, piercing to the division of soul and of spirit, of joints and of marrow, and discerning the thoughts and intentions of the heart." (Hebrews 4:12)
                 </blockquote>
-                
+
                 <p className="leading-relaxed">
                   We are committed to the holistic care of spirit, soul, and body, trusting God's promise:
                 </p>
@@ -412,12 +412,12 @@ export default function AboutPage() {
         <section className="py-16 bg-muted/30">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold text-foreground mb-8 text-center">Embracing Our Faith Tradition</h2>
-            
+
             <div className="max-w-4xl mx-auto">
               <p className="text-lg text-muted-foreground leading-relaxed mb-8">
                 Our faith tradition provides the unshakable foundation for understanding the human heart and experience. We affirm that God's Word is sufficient for counseling, comfort, correction, and hope. In every session, we turn to the Scriptures and the work of the Holy Spirit to address life's struggles and to direct people toward Christ.
               </p>
-              
+
               <p className="text-lg text-muted-foreground leading-relaxed">
                 Our counselors are equipped not to integrate secular theories but to apply biblical truth to real-life challenges—fostering a safe space for repentance, renewal, and growth in grace.
               </p>
@@ -429,13 +429,13 @@ export default function AboutPage() {
         <section className="py-16">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold text-foreground mb-8 text-center">A Theological Framework for Healing</h2>
-            
+
             <div className="max-w-4xl mx-auto mb-8">
               <p className="text-lg text-muted-foreground leading-relaxed text-center">
                 We believe that every person is created in the image of God, endowed with dignity and worth (Genesis 1:27). Our approach rests on:
               </p>
             </div>
-            
+
             <div className="grid md:grid-cols-3 gap-8">
               <Card className="text-center">
                 <CardHeader>
@@ -486,12 +486,12 @@ export default function AboutPage() {
         <section className="py-16 bg-muted/30">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold text-foreground mb-8 text-center">Biblical Counseling in Practice</h2>
-            
+
             <div className="max-w-4xl mx-auto space-y-6">
               <p className="text-lg text-muted-foreground leading-relaxed">
                 At CCMWA, counseling is ministry of the Word—an act of discipleship and care. We come alongside individuals and families with prayer, encouragement, and Scripture, pointing always to Christ as the source of wisdom, peace, and transformation.
               </p>
-              
+
               <p className="text-lg text-muted-foreground leading-relaxed">
                 We do not integrate secular psychology into our practice; instead, we uphold the sufficiency of Scripture and the lordship of Christ as the foundation for all counsel and care (2 Timothy 3:16–17; Hebrews 4:12).
               </p>
@@ -503,7 +503,7 @@ export default function AboutPage() {
         <section className="py-16">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold text-foreground mb-12 text-center">Soul-Care. Wellness. Discipleship.</h2>
-            
+
             <div className="grid md:grid-cols-3 gap-8">
               <Card className="text-center">
                 <CardHeader>
@@ -554,12 +554,12 @@ export default function AboutPage() {
         <section className="py-16 bg-primary/5">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl font-bold text-foreground mb-8">Our Story: The Birth of CCMWA</h2>
-            
+
             <div className="bg-background rounded-lg p-8 shadow-sm">
               <p className="text-lg text-muted-foreground leading-relaxed mb-6">
                 The Christian Counselling and Mental Wellness Association (CCMWA) was founded with a sacred burden: to bring Christ-centered healing to the hurting, strength to the weary, and transformation to communities through biblical counseling and soul care.
               </p>
-              
+
               <div className="border-l-4 border-primary pl-6">
                 <p className="text-sm text-muted-foreground mb-2">✨ Founding Scripture:</p>
                 <blockquote className="text-xl text-primary font-medium">
@@ -574,7 +574,7 @@ export default function AboutPage() {
         <section className="py-16">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold text-foreground mb-12 text-center">Leadership</h2>
-            
+
             <Card className="max-w-4xl mx-auto">
               <CardHeader className="text-center">
                 <div className="mx-auto mb-4">
@@ -594,7 +594,7 @@ export default function AboutPage() {
                 <p className="text-muted-foreground leading-relaxed">
                   Pst. Martin Mwangi is a servant of the gospel, an ordained minister, and Team Leader at CCMWA. With extensive training in Biblical Counseling, theology, and life coaching, he is passionate about equipping believers, strengthening families, and offering Christ-centered hope and guidance. His vision is to see CCMWA serve as a beacon of biblical wisdom and compassionate ministry, transforming lives through the power of the gospel.
                 </p>
-                
+
                 <div className="bg-muted/30 rounded-lg p-6">
                   <h4 className="font-semibold text-foreground mb-4">Education & Training</h4>
                   <div className="space-y-3 text-sm text-muted-foreground">
@@ -608,7 +608,7 @@ export default function AboutPage() {
                     <p>• <strong>Specialized Training:</strong> Universal Treatment Curriculum for Substance Use Disorders (UTC)</p>
                   </div>
                 </div>
-                
+
                 <div>
                   <h4 className="font-semibold text-foreground mb-4">Leadership Vision for CCMWA</h4>
                   <p className="text-muted-foreground leading-relaxed">
