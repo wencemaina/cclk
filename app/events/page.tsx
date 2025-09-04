@@ -43,7 +43,7 @@ export default function EventsPage() {
       category: "workshop",
       date: "2024-03-22",
       time: "7:00 PM - 9:00 PM",
-      location: "CCLK Main Building", // Updated organization name to CCLK
+      location: "CCMWA Main Building", // Updated organization name to CCMWA
       description: "Strengthen your marriage with practical tools and biblical wisdom.",
       spots: 20,
       registered: 12,
@@ -71,7 +71,7 @@ export default function EventsPage() {
       category: "fellowship",
       date: "2024-03-28",
       time: "6:30 PM - 9:00 PM",
-      location: "CCLK Youth Center", // Updated organization name to CCLK
+      location: "CCMWA Youth Center", // Updated organization name to CCMWA
       description: "Connect with other young adults through games, food, and meaningful conversation.",
       spots: 40,
       registered: 35,
@@ -85,7 +85,7 @@ export default function EventsPage() {
       category: "study",
       date: "2024-04-05",
       time: "9:00 AM - 12:00 PM",
-      location: "CCLK Conference Room", // Updated organization name to CCLK
+      location: "CCMWA Conference Room", // Updated organization name to CCMWA
       description: "Deep dive into the book of Philippians with discussion and application.",
       spots: 15,
       registered: 8,
@@ -99,7 +99,7 @@ export default function EventsPage() {
       category: "fellowship",
       date: "2024-03-25",
       time: "7:00 AM - 8:30 AM",
-      location: "CCLK Fellowship Hall", // Updated organization name to CCLK
+      location: "CCMWA Fellowship Hall", // Updated organization name to CCMWA
       description: "Start your Saturday with fellowship, prayer, and a hearty breakfast.",
       spots: 25,
       registered: 20,
