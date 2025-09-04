@@ -16,7 +16,7 @@ export default function ContactPage() {
     {
       icon: Mail,
       title: "Email",
-      details: "info@cclk.org", // Updated email domain to CCLK
+      details: "info@ccmwa.org", // Updated email domain to CCMWA
       description: "We respond within 24 hours",
     },
     {
