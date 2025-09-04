@@ -3,7 +3,9 @@ import { Footer } from "@/components/footer"
 import { VisionMissionSection } from "@/components/vision-mission-section"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
+import { Button } from "@/components/ui/button"
 import { Heart, Users, BookOpen, Shield } from "lucide-react"
+import Link from "next/link"
 
 export default function AboutPage() {
   const leadership = [
@@ -67,7 +69,7 @@ export default function AboutPage() {
         </section>
 
         {/* Our Story */}
-        <section className="py-16">
+        <section id="mission" className="py-16">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold text-foreground mb-8 text-center">Our Story</h2>
             <div className="prose prose-lg max-w-none text-muted-foreground">
@@ -95,7 +97,7 @@ export default function AboutPage() {
         <VisionMissionSection />
 
         {/* Leadership Team */}
-        <section className="py-16 bg-muted/30">
+        <section id="team" className="py-16 bg-muted/30">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold text-foreground mb-12 text-center">Leadership Team</h2>
             <div className="grid md:grid-cols-3 gap-8">
@@ -216,7 +218,7 @@ export default function AboutPage() {
         </section>
 
         {/* Detailed Statement of Faith */}
-        <section className="py-16 bg-muted/30">
+        <section id="doctrinal-basis" className="py-16 bg-muted/30">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold text-foreground mb-8 text-center">Our Beliefs and Statement of Faith</h2>
             <p className="text-lg text-muted-foreground text-center mb-12 max-w-4xl mx-auto">
@@ -551,7 +553,7 @@ export default function AboutPage() {
         </section>
 
         {/* Our Story: The Birth of CCMWA */}
-        <section className="py-16 bg-primary/5">
+        <section id="governance" className="py-16 bg-primary/5">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl font-bold text-foreground mb-8">Our Story: The Birth of CCMWA</h2>
 
@@ -571,7 +573,7 @@ export default function AboutPage() {
         </section>
 
         {/* Pastor Martin Leadership */}
-        <section className="py-16">
+        <section id="team" className="py-16">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold text-foreground mb-12 text-center">Leadership</h2>
 
@@ -617,6 +619,71 @@ export default function AboutPage() {
                 </div>
               </CardContent>
             </Card>
+          </div>
+        </section>
+
+        {/* Annual Report Section */}
+        <section id="annual-report" className="py-16 bg-muted/30">
+          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 className="text-3xl font-bold text-foreground mb-6">Annual Report</h2>
+            <p className="text-lg text-muted-foreground mb-8">
+              View our comprehensive annual report to see how we've served our community and advanced our mission.
+            </p>
+            <Button asChild>
+              <Link href="/about/annual-report">View 2024 Annual Report</Link>
+            </Button>
+          </div>
+        </section>
+
+        {/* Governance Section */}
+        <section id="governance" className="py-16">
+          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 className="text-3xl font-bold text-foreground mb-6">Governance</h2>
+            <p className="text-lg text-muted-foreground mb-8">
+              Learn about our board of directors, governance structure, and commitment to transparency.
+            </p>
+            <Button asChild>
+              <Link href="/about/governance">View Governance Information</Link>
+            </Button>
+          </div>
+        </section>
+
+        {/* Uncover Section */}
+        <section id="uncover" className="py-16 bg-muted/30">
+          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 className="text-3xl font-bold text-foreground mb-6">Uncover</h2>
+            <p className="text-lg text-muted-foreground mb-8">
+              Discover inspiring stories of transformation, healing, and hope from our community.
+            </p>
+            <Button asChild>
+              <Link href="/about/uncover">Explore Stories</Link>
+            </Button>
+          </div>
+        </section>
+
+        {/* Jobs Section */}
+        <section id="jobs" className="py-16">
+          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 className="text-3xl font-bold text-foreground mb-6">Join Our Team</h2>
+            <p className="text-lg text-muted-foreground mb-8">
+              Explore career opportunities and volunteer roles to serve with us.
+            </p>
+            <Button asChild>
+              <Link href="/about/jobs">View Job Openings</Link>
+            </Button>
+          </div>
+        </section>
+
+        {/* Contact Us Section */}
+        <section id="contact-us" className="py-16 bg-primary/5">
+          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 className="text-3xl font-bold text-foreground mb-6">Contact Us</h2>
+            <p className="text-lg text-muted-foreground mb-8">
+              Have questions? We'd love to hear from you.
+            </p>
+            <Button asChild>
+              <Link href="/contact">Get in Touch</Link>
+            </Button>
           </div>
         </section>
       </main>
