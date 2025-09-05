@@ -11,7 +11,7 @@ export function HeroSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-6 text-balance">
-            <span className="text-primary">Soul-Care. Wellness. Discipleship</span>
+            <span className="text-primary">Biblical Approach to Mental Wellness</span>
           </h1>
 
           <p className="text-xl text-white mb-8 max-w-3xl mx-auto text-pretty">
