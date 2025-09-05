@@ -48,15 +48,6 @@ export default function ProgramsSection() {
 									</div>
 								))}
 							</div>
-
-							<div className="pt-2">
-								<Button
-									size="lg"
-									className="flex items-center gap-3 px-8 py-6 text-lg font-semibold rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300"
-								>
-									Join a Group
-								</Button>
-							</div>
 						</div>
 
 						<div className="relative">
@@ -109,15 +100,6 @@ export default function ProgramsSection() {
 									</div>
 								))}
 							</div>
-
-							<div className="pt-2">
-								<Button
-									size="lg"
-									className="flex items-center gap-3 px-8 py-6 text-lg font-semibold rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300"
-								>
-									Start Training
-								</Button>
-							</div>
 						</div>
 					</div>
 
@@ -153,15 +135,6 @@ export default function ProgramsSection() {
 									</div>
 								))}
 							</div>
-
-							<div className="pt-2">
-								<Button
-									size="lg"
-									className="flex items-center gap-3 px-8 py-6 text-lg font-semibold rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300"
-								>
-									Find Your Group
-								</Button>
-							</div>
 						</div>
 
 						<div className="relative">
@@ -176,18 +149,6 @@ export default function ProgramsSection() {
 				</div>
 
 				<div className="text-center mt-24 pt-8">
-					<Button
-						asChild
-						size="lg"
-						className="px-10 py-6 text-lg font-semibold rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300"
-					>
-						<Link
-							href="/programs"
-							className="flex items-center gap-3"
-						>
-							Explore All Programs
-						</Link>
-					</Button>
 				</div>
 			</div>
 		</section>
