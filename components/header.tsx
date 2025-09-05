@@ -4,21 +4,18 @@ import { useState, useEffect } from "react"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 import { Button } from "@/components/ui/button"
-import { Menu, X, User, LogOut, Settings, ChevronDown } from "lucide-react"
+import { ChevronDown } from "lucide-react"
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
-  DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
 import { cn } from "@/lib/utils"
-import { useAuth } from "@/lib/auth-context"
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [isScrolled, setIsScrolled] = useState(false)
-  const { user, logout } = useAuth()
   const pathname = usePathname()
 
   useEffect(() => {
@@ -65,11 +62,6 @@ export function Header() {
       ]
     },
   ]
-
-  const handleLogout = () => {
-    logout()
-    setIsMenuOpen(false)
-  }
 
   return (
     <header className={cn(
@@ -157,62 +149,6 @@ export function Header() {
               )
             })}
           </nav>
-
-          <div className="hidden md:flex">
-            {user ? (
-              <DropdownMenu>
-                <DropdownMenuTrigger asChild>
-                  <Button
-                    variant="ghost"
-                    className="flex items-center gap-2 h-10 px-4 bg-muted/20 hover:bg-muted/40 border border-border/50 rounded-full transition-all duration-300 hover:shadow-md hover:scale-105"
-                  >
-                    <div className="w-6 h-6 bg-gradient-to-br from-primary to-primary/60 rounded-full flex items-center justify-center text-white text-xs font-bold">
-                      {user.firstName?.charAt(0).toUpperCase()}
-                    </div>
-                    <span className="font-medium">{user.firstName}</span>
-                    <ChevronDown className="h-4 w-4 opacity-50" />
-                  </Button>
-                </DropdownMenuTrigger>
-                <DropdownMenuContent align="end" className="w-64 p-2 mt-2 border border-border/50 shadow-xl">
-                  <div className="px-2 py-3 border-b border-border/50">
-                    <p className="text-sm font-medium text-foreground">{user.firstName} {user.lastName}</p>
-                    <p className="text-xs text-muted-foreground">{user.email}</p>
-                  </div>
-                  <DropdownMenuItem asChild className="mt-2 rounded-md">
-                    <Link href="/member-portal" className="flex items-center gap-3 px-3 py-2">
-                      <User className="h-4 w-4" />
-                      <span>Member Portal</span>
-                    </Link>
-                  </DropdownMenuItem>
-                  <DropdownMenuItem asChild className="rounded-md">
-                    <Link href="/profile" className="flex items-center gap-3 px-3 py-2">
-                      <Settings className="h-4 w-4" />
-                      <span>Profile Settings</span>
-                    </Link>
-                  </DropdownMenuItem>
-                  <DropdownMenuSeparator className="my-2" />
-                  <DropdownMenuItem
-                    onClick={handleLogout}
-                    className="flex items-center gap-3 px-3 py-2 text-destructive hover:text-destructive/90 hover:bg-destructive/10 rounded-md cursor-pointer"
-                  >
-                    <LogOut className="h-4 w-4" />
-                    <span>Sign Out</span>
-                  </DropdownMenuItem>
-                </DropdownMenuContent>
-              </DropdownMenu>
-            ) : (
-              <Button
-                variant="outline"
-                className="flex items-center gap-2 h-10 px-6 bg-gradient-to-r from-primary to-primary/80 text-white border-0 rounded-full hover:from-primary/90 hover:to-primary/70 transition-all duration-300 hover:shadow-lg hover:scale-105 font-medium"
-                asChild
-              >
-                <Link href="/login">
-                  <User className="h-4 w-4" />
-                  Member Login
-                </Link>
-              </Button>
-            )}
-          </div>
 
           {/* Mobile menu button */}
           <div className="md:hidden">
@@ -308,44 +244,6 @@ export function Header() {
                 </Link>
               )
             })}
-
-            <div className="pt-4 border-t border-border/50">
-              {user ? (
-                <div className="space-y-3">
-                  <div className="px-4 py-2 bg-muted/30 rounded-xl">
-                    <p className="text-sm font-medium text-foreground">{user.firstName} {user.lastName}</p>
-                    <p className="text-xs text-muted-foreground">{user.email}</p>
-                  </div>
-                  <Link
-                    href="/member-portal"
-                    className="flex items-center gap-3 px-4 py-3 text-foreground hover:text-primary hover:bg-muted/50 rounded-xl transition-all duration-300"
-                    onClick={() => setIsMenuOpen(false)}
-                  >
-                    <User className="h-5 w-5" />
-                    Member Portal
-                  </Link>
-                  <Button
-                    variant="outline"
-                    className="w-full flex items-center justify-center gap-3 h-12 bg-transparent hover:bg-destructive/10 text-destructive border-destructive/30 rounded-xl"
-                    onClick={handleLogout}
-                  >
-                    <LogOut className="h-5 w-5" />
-                    Sign Out
-                  </Button>
-                </div>
-              ) : (
-                <Button
-                  variant="default"
-                  className="w-full flex items-center justify-center gap-3 h-12 bg-gradient-to-r from-primary to-primary/80 text-white rounded-xl hover:from-primary/90 hover:to-primary/70 transition-all duration-300"
-                  asChild
-                >
-                  <Link href="/login" onClick={() => setIsMenuOpen(false)}>
-                    <User className="h-5 w-5" />
-                    Member Login
-                  </Link>
-                </Button>
-              )}
-            </div>
           </div>
         </div>
       </div>
