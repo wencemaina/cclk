@@ -47,13 +47,6 @@ export default function ServicesOverview() {
 									</div>
 								))}
 							</div>
-
-							<Button
-								size="lg"
-								className="flex items-center gap-3 px-8 py-4 text-lg font-semibold rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300"
-							>
-								Explore Programs
-							</Button>
 						</div>
 
 						<div className="relative">
@@ -106,13 +99,6 @@ export default function ServicesOverview() {
 									</div>
 								))}
 							</div>
-
-							<Button
-								size="lg"
-								className="flex items-center gap-3 px-8 py-4 text-lg font-semibold rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300"
-							>
-								Get Support
-							</Button>
 						</div>
 					</div>
 
@@ -147,13 +133,6 @@ export default function ServicesOverview() {
 									</div>
 								))}
 							</div>
-
-							<Button
-								size="lg"
-								className="flex items-center gap-3 px-8 py-4 text-lg font-semibold rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300"
-							>
-								View Events
-							</Button>
 						</div>
 
 						<div className="relative">
