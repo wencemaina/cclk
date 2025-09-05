@@ -46,9 +46,9 @@ export default function SupportUsPage() {
               {[
                 { id: 'appeals', name: 'Appeals', icon: Send },
                 { id: 'give', name: 'Give', icon: HandCoins },
-                { id: 'blog', name: 'Blog', icon: Newspaper },
+
                 { id: 'pray', name: 'Pray', icon: Heart },
-                { id: 'publications', name: 'Publications', icon: BookOpen },
+
                 { id: 'churches', name: 'Churches', icon: Building },
                 { id: 'staff', name: 'Support Our Staff', icon: User },
                 { id: 'relay-worker', name: 'Support a Relay Worker', icon: Users },
