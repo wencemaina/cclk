@@ -674,6 +674,19 @@ export default function AboutPage() {
           </div>
         </section>
 
+        {/* Group Membership Section */}
+        <section id="group-membership" className="py-16 bg-muted/30">
+          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 className="text-3xl font-bold text-foreground mb-6">Group Memberships for Churches</h2>
+            <p className="text-lg text-muted-foreground mb-8">
+              Learn how your church can join our group membership program to create a culture of care.
+            </p>
+            <Button asChild>
+              <Link href="/about/group-membership">Learn More</Link>
+            </Button>
+          </div>
+        </section>
+
         {/* Contact Us Section */}
         <section id="contact-us" className="py-16 bg-primary/5">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
