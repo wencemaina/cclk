@@ -4,14 +4,14 @@ import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { 
-  BookOpen, 
-  Heart, 
-  Users, 
-  Calendar, 
-  Newspaper, 
-  Building, 
-  User, 
+import {
+  BookOpen,
+  Heart,
+  Users,
+  Calendar,
+  Newspaper,
+  Building,
+  User,
   Send,
   HandCoins
 } from "lucide-react"
@@ -79,7 +79,7 @@ export default function SupportUsPage() {
                 Join us in responding to urgent needs in our community and around the world.
               </p>
             </div>
-            
+
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
               <Card className="flex flex-col">
                 <CardHeader>
@@ -100,7 +100,7 @@ export default function SupportUsPage() {
                   </div>
                 </CardContent>
               </Card>
-              
+
               <Card className="flex flex-col">
                 <CardHeader>
                   <CardTitle className="flex items-center gap-2">
@@ -120,7 +120,7 @@ export default function SupportUsPage() {
                   </div>
                 </CardContent>
               </Card>
-              
+
               <Card className="flex flex-col">
                 <CardHeader>
                   <CardTitle className="flex items-center gap-2">
@@ -153,7 +153,7 @@ export default function SupportUsPage() {
                 Your generous gifts make our ministry possible. Thank you for partnering with us.
               </p>
             </div>
-            
+
             <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
               <Card>
                 <CardHeader>
@@ -169,7 +169,7 @@ export default function SupportUsPage() {
                   <Button className="w-full">Give Now</Button>
                 </CardContent>
               </Card>
-              
+
               <Card>
                 <CardHeader>
                   <CardTitle>Recurring Donation</CardTitle>
@@ -185,7 +185,7 @@ export default function SupportUsPage() {
                 </CardContent>
               </Card>
             </div>
-            
+
             <div className="mt-12 text-center">
               <Card className="max-w-3xl mx-auto">
                 <CardHeader>
@@ -219,41 +219,7 @@ export default function SupportUsPage() {
           </div>
         </section>
 
-        {/* Blog Section */}
-        <section id="blog" className="py-16">
-          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold text-foreground mb-4">Latest from Our Blog</h2>
-              <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-                Insights on soul-care, counseling, and spiritual growth from our team.
-              </p>
-            </div>
-            
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {[1, 2, 3].map((item) => (
-                <Card key={item} className="flex flex-col">
-                  <div className="aspect-video bg-muted rounded-t-lg" />
-                  <CardHeader>
-                    <CardTitle>Understanding Biblical Counseling</CardTitle>
-                    <CardDescription>June 15, 2024 • 5 min read</CardDescription>
-                  </CardHeader>
-                  <CardContent className="flex-grow">
-                    <p className="text-muted-foreground mb-4">
-                      Exploring how Scripture provides wisdom for addressing life's challenges.
-                    </p>
-                    <Button variant="outline" className="mt-auto">Read Article</Button>
-                  </CardContent>
-                </Card>
-              ))}
-            </div>
-            
-            <div className="text-center mt-12">
-              <Button asChild>
-                <Link href="/blog">View All Articles</Link>
-              </Button>
-            </div>
-          </div>
-        </section>
+
 
         {/* Pray Section */}
         <section id="pray" className="py-16 bg-muted/30">
@@ -264,7 +230,7 @@ export default function SupportUsPage() {
                 Prayer is foundational to our ministry. Partner with us through intercession.
               </p>
             </div>
-            
+
             <div className="grid md:grid-cols-2 gap-8">
               <Card>
                 <CardHeader>
@@ -279,7 +245,7 @@ export default function SupportUsPage() {
                   </Button>
                 </CardContent>
               </Card>
-              
+
               <Card>
                 <CardHeader>
                   <CardTitle>Prayer Resources</CardTitle>
@@ -292,7 +258,7 @@ export default function SupportUsPage() {
                 </CardContent>
               </Card>
             </div>
-            
+
             <Card className="mt-12">
               <CardHeader>
                 <CardTitle className="text-center">Current Prayer Focus</CardTitle>
@@ -323,61 +289,6 @@ export default function SupportUsPage() {
           </div>
         </section>
 
-        {/* Publications Section */}
-        <section id="publications" className="py-16">
-          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold text-foreground mb-4">Our Publications</h2>
-              <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-                Resources to support your journey of faith and spiritual growth.
-              </p>
-            </div>
-            
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-              <Card className="flex flex-col">
-                <div className="aspect-[2/3] bg-muted rounded-t-lg mx-6 mt-6" />
-                <CardHeader>
-                  <CardTitle>Soul Care Journal</CardTitle>
-                  <CardDescription>Quarterly publication</CardDescription>
-                </CardHeader>
-                <CardContent className="flex-grow">
-                  <p className="text-muted-foreground mb-4">
-                    Articles on biblical counseling, spiritual formation, and practical wisdom.
-                  </p>
-                  <Button variant="outline" className="w-full">Subscribe</Button>
-                </CardContent>
-              </Card>
-              
-              <Card className="flex flex-col">
-                <div className="aspect-[2/3] bg-muted rounded-t-lg mx-6 mt-6" />
-                <CardHeader>
-                  <CardTitle>Training Manuals</CardTitle>
-                  <CardDescription>Educational resources</CardDescription>
-                </CardHeader>
-                <CardContent className="flex-grow">
-                  <p className="text-muted-foreground mb-4">
-                    Comprehensive guides for counselors and ministry leaders.
-                  </p>
-                  <Button variant="outline" className="w-full">View Collection</Button>
-                </CardContent>
-              </Card>
-              
-              <Card className="flex flex-col">
-                <div className="aspect-[2/3] bg-muted rounded-t-lg mx-6 mt-6" />
-                <CardHeader>
-                  <CardTitle>Digital Resources</CardTitle>
-                  <CardDescription>Free downloads</CardDescription>
-                </CardHeader>
-                <CardContent className="flex-grow">
-                  <p className="text-muted-foreground mb-4">
-                    Bible studies, prayer guides, and counseling resources.
-                  </p>
-                  <Button variant="outline" className="w-full">Browse Resources</Button>
-                </CardContent>
-              </Card>
-            </div>
-          </div>
-        </section>
 
         {/* Churches Section */}
         <section id="churches" className="py-16 bg-muted/30">
@@ -388,7 +299,7 @@ export default function SupportUsPage() {
                 We work with local churches to equip leaders and serve their communities.
               </p>
             </div>
-            
+
             <div className="grid md:grid-cols-2 gap-8">
               <Card>
                 <CardHeader>
@@ -415,7 +326,7 @@ export default function SupportUsPage() {
                   <Button className="w-full">Learn About Training</Button>
                 </CardContent>
               </Card>
-              
+
               <Card>
                 <CardHeader>
                   <CardTitle>Referral Partnership</CardTitle>
@@ -454,7 +365,7 @@ export default function SupportUsPage() {
                 Our dedicated team serves with excellence through your partnership.
               </p>
             </div>
-            
+
             <Card className="mb-8">
               <CardHeader>
                 <CardTitle>Sponsor a Staff Member</CardTitle>
@@ -480,7 +391,7 @@ export default function SupportUsPage() {
                 <Button className="w-full">Sponsor a Staff Member</Button>
               </CardContent>
             </Card>
-            
+
             <div className="grid md:grid-cols-2 gap-8">
               <Card>
                 <CardHeader>
@@ -493,7 +404,7 @@ export default function SupportUsPage() {
                   <Button variant="outline" className="w-full">Contribute to Staff Care</Button>
                 </CardContent>
               </Card>
-              
+
               <Card>
                 <CardHeader>
                   <CardTitle>Ministry Supplies</CardTitle>
@@ -518,7 +429,7 @@ export default function SupportUsPage() {
                 Partner with us in supporting missionaries and ministry workers around the world.
               </p>
             </div>
-            
+
             <div className="grid md:grid-cols-2 gap-8">
               <Card>
                 <CardHeader>
@@ -545,7 +456,7 @@ export default function SupportUsPage() {
                   <Button className="w-full">Become a Partner</Button>
                 </CardContent>
               </Card>
-              
+
               <Card>
                 <CardHeader>
                   <CardTitle>Special Projects</CardTitle>
@@ -572,28 +483,8 @@ export default function SupportUsPage() {
                 </CardContent>
               </Card>
             </div>
-            
-            <Card className="mt-12">
-              <CardHeader>
-                <CardTitle className="text-center">Current Missionaries</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <div className="grid md:grid-cols-3 gap-4">
-                  {[1, 2, 3].map((item) => (
-                    <div key={item} className="text-center">
-                      <div className="w-16 h-16 bg-primary/10 rounded-full mx-auto mb-2 flex items-center justify-center">
-                        <User className="h-8 w-8 text-primary" />
-                      </div>
-                      <h3 className="font-semibold">Missionary Name</h3>
-                      <p className="text-sm text-muted-foreground">Location</p>
-                    </div>
-                  ))}
-                </div>
-                <div className="text-center mt-6">
-                  <Button variant="outline">View All Missionaries</Button>
-                </div>
-              </CardContent>
-            </Card>
+
+
           </div>
         </section>
       </main>
