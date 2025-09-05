@@ -29,28 +29,6 @@ export default function AboutPage() {
     },
   ]
 
-  const values = [
-    {
-
-      title: "Compassionate Care",
-      description: "We approach every person with empathy, understanding, and unconditional love.",
-    },
-    {
-
-      title: "Authentic Community",
-      description: "Building genuine relationships where people can be vulnerable and find belonging.",
-    },
-    {
-
-      title: "Biblical Foundation",
-      description: "Grounded in Scripture while embracing diverse expressions of faith and spirituality.",
-    },
-    {
-
-      title: "Safe Environment",
-      description: "Creating spaces where healing can happen without judgment or condemnation.",
-    },
-  ]
 
   return (
     <div className="min-h-screen">
@@ -125,30 +103,7 @@ export default function AboutPage() {
           </div>
         </section>
 
-        {/* Values */}
-        <section className="py-16">
-          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="text-3xl font-bold text-foreground mb-12 text-center">Our Values</h2>
-            <div className="grid md:grid-cols-2 gap-8">
-              {values.map((value, index) => {
 
-                return (
-                  <Card key={index} className="p-6">
-                    <div className="flex items-start gap-4">
-                      <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
-
-                      </div>
-                      <div>
-                        <h3 className="text-xl font-semibold text-foreground mb-2">{value.title}</h3>
-                        <p className="text-muted-foreground leading-relaxed">{value.description}</p>
-                      </div>
-                    </div>
-                  </Card>
-                )
-              })}
-            </div>
-          </div>
-        </section>
 
         {/* What We Believe */}
         <section className="py-16">
