@@ -78,9 +78,7 @@ export function Header() {
               href="/"
               className="group flex items-center space-x-2 text-2xl font-bold text-primary hover:text-primary/80 transition-all duration-300 transform hover:scale-105"
             >
-              <div className="w-8 h-8 bg-gradient-to-br from-primary to-primary/60 rounded-lg flex items-center justify-center text-white text-sm font-bold group-hover:shadow-lg transition-all duration-300">
-                C
-              </div>
+
               <span className="bg-gradient-to-r from-primary to-primary/80 bg-clip-text text-transparent">
                 CCMWA
               </span>
