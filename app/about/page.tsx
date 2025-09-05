@@ -10,19 +10,19 @@ import Link from "next/link"
 export default function AboutPage() {
   const leadership = [
     {
-      name: "Dr. Grace Wanjiku", // Updated to Kenyan name
+      name: "Dr. Grace Wanjiku",
       role: "Executive Director",
       bio: "With over 15 years in ministry and counseling, Grace leads our vision of holistic spiritual care.",
       image: "/professional-woman-smiling.png",
     },
     {
-      name: "Pastor David Kiprotich", // Updated to Kenyan name
+      name: "Pastor David Kiprotich",
       role: "Director of Discipleship",
       bio: "David oversees our small group programs and mentorship initiatives with passion for community building.",
       image: "/professional-man-smiling.png",
     },
     {
-      name: "Dr. Mary Njeri", // Updated to Kenyan name
+      name: "Dr. Mary Njeri",
       role: "Clinical Director",
       bio: "Licensed therapist specializing in faith-based counseling and trauma-informed care.",
       image: "/professional-woman-therapist.png",
