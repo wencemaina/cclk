@@ -31,22 +31,22 @@ export default function AboutPage() {
 
   const values = [
     {
-      icon: Heart,
+
       title: "Compassionate Care",
       description: "We approach every person with empathy, understanding, and unconditional love.",
     },
     {
-      icon: Users,
+
       title: "Authentic Community",
       description: "Building genuine relationships where people can be vulnerable and find belonging.",
     },
     {
-      icon: BookOpen,
+
       title: "Biblical Foundation",
       description: "Grounded in Scripture while embracing diverse expressions of faith and spirituality.",
     },
     {
-      icon: Shield,
+
       title: "Safe Environment",
       description: "Creating spaces where healing can happen without judgment or condemnation.",
     },
@@ -131,12 +131,12 @@ export default function AboutPage() {
             <h2 className="text-3xl font-bold text-foreground mb-12 text-center">Our Values</h2>
             <div className="grid md:grid-cols-2 gap-8">
               {values.map((value, index) => {
-                const Icon = value.icon
+
                 return (
                   <Card key={index} className="p-6">
                     <div className="flex items-start gap-4">
                       <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                        <Icon className="h-6 w-6 text-primary" />
+
                       </div>
                       <div>
                         <h3 className="text-xl font-semibold text-foreground mb-2">{value.title}</h3>
@@ -162,57 +162,54 @@ export default function AboutPage() {
               <div className="grid md:grid-cols-2 gap-4 text-muted-foreground">
                 <div className="space-y-2">
                   <p className="flex items-start gap-2">
-                    <span className="text-primary font-bold">•</span>
+                    <span className="text-primary font-bold"></span>
                     <span><strong>The Bible</strong> – God's inspired, authoritative Word and the final guide for life and faith.</span>
                   </p>
                   <p className="flex items-start gap-2">
-                    <span className="text-primary font-bold">•</span>
+                    <span className="text-primary font-bold"></span>
                     <span><strong>God</strong> – One God in three Persons: Father, Son, and Holy Spirit.</span>
                   </p>
                   <p className="flex items-start gap-2">
-                    <span className="text-primary font-bold">•</span>
+                    <span className="text-primary font-bold"></span>
                     <span><strong>Jesus Christ</strong> – Fully God and fully man; His life, death, and resurrection bring salvation.</span>
                   </p>
                   <p className="flex items-start gap-2">
-                    <span className="text-primary font-bold">•</span>
+                    <span className="text-primary font-bold"></span>
                     <span><strong>The Holy Spirit</strong> – Convicts, transforms, and empowers believers for holy living and service.</span>
                   </p>
                   <p className="flex items-start gap-2">
-                    <span className="text-primary font-bold">•</span>
+                    <span className="text-primary font-bold"></span>
                     <span><strong>Humanity</strong> – All are created in God's image yet fallen, in need of salvation through Christ.</span>
                   </p>
                   <p className="flex items-start gap-2">
-                    <span className="text-primary font-bold">•</span>
+                    <span className="text-primary font-bold"></span>
                     <span><strong>Salvation</strong> – By grace alone, through faith alone, in Christ alone.</span>
                   </p>
                 </div>
                 <div className="space-y-2">
                   <p className="flex items-start gap-2">
-                    <span className="text-primary font-bold">•</span>
+                    <span className="text-primary font-bold"></span>
                     <span><strong>The Church</strong> – The body of Christ, called to worship, discipleship, service, and mission.</span>
                   </p>
                   <p className="flex items-start gap-2">
-                    <span className="text-primary font-bold">•</span>
+                    <span className="text-primary font-bold"></span>
                     <span><strong>Christian Living</strong> – Believers are called to holiness, love, and compassionate service.</span>
                   </p>
                   <p className="flex items-start gap-2">
-                    <span className="text-primary font-bold">•</span>
+                    <span className="text-primary font-bold"></span>
                     <span><strong>Marriage & Family</strong> – A sacred covenant between one man and one woman, reflecting Christ and the church.</span>
                   </p>
                   <p className="flex items-start gap-2">
-                    <span className="text-primary font-bold">•</span>
+                    <span className="text-primary font-bold"></span>
                     <span><strong>Counseling & Soul-Care</strong> – Scripture provides sufficient wisdom for healing, hope, and transformation.</span>
                   </p>
                   <p className="flex items-start gap-2">
-                    <span className="text-primary font-bold">•</span>
+                    <span className="text-primary font-bold"></span>
                     <span><strong>The Future Hope</strong> – Christ will return, and believers will share eternal life with God.</span>
                   </p>
                 </div>
               </div>
 
-              <div className="mt-8 text-center">
-                <p className="text-primary font-medium">➡️ For our full Statement of Faith, see detailed section below.</p>
-              </div>
             </div>
           </div>
         </section>
@@ -442,7 +439,7 @@ export default function AboutPage() {
               <Card className="text-center">
                 <CardHeader>
                   <CardTitle className="flex flex-col items-center gap-2">
-                    <Users className="h-8 w-8 text-primary" />
+
                     The Importance of Community
                   </CardTitle>
                 </CardHeader>
@@ -456,7 +453,7 @@ export default function AboutPage() {
               <Card className="text-center">
                 <CardHeader>
                   <CardTitle className="flex flex-col items-center gap-2">
-                    <Heart className="h-8 w-8 text-primary" />
+
                     Grace and Forgiveness
                   </CardTitle>
                 </CardHeader>
@@ -470,7 +467,7 @@ export default function AboutPage() {
               <Card className="text-center">
                 <CardHeader>
                   <CardTitle className="flex flex-col items-center gap-2">
-                    <Shield className="h-8 w-8 text-primary" />
+
                     Hope and Restoration
                   </CardTitle>
                 </CardHeader>
@@ -510,7 +507,7 @@ export default function AboutPage() {
               <Card className="text-center">
                 <CardHeader>
                   <CardTitle className="flex flex-col items-center gap-2">
-                    <span className="text-3xl">🌿</span>
+
                     Soul-Care
                   </CardTitle>
                 </CardHeader>
@@ -524,7 +521,7 @@ export default function AboutPage() {
               <Card className="text-center">
                 <CardHeader>
                   <CardTitle className="flex flex-col items-center gap-2">
-                    <span className="text-3xl">💡</span>
+
                     Wellness
                   </CardTitle>
                 </CardHeader>
@@ -538,7 +535,7 @@ export default function AboutPage() {
               <Card className="text-center">
                 <CardHeader>
                   <CardTitle className="flex flex-col items-center gap-2">
-                    <span className="text-3xl">🔥</span>
+
                     Discipleship
                   </CardTitle>
                 </CardHeader>
