@@ -42,6 +42,7 @@ export function Header() {
         { name: "Annual Report", href: "/about#annual-report" },
         { name: "Governance", href: "/about#governance" },
         { name: "Uncover", href: "/about#uncover" },
+        { name: "Group Membership", href: "/about/group-membership" },
         { name: "Jobs", href: "/about#jobs" },
         { name: "Contact Us", href: "/contact" },
       ]
