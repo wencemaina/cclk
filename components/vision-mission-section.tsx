@@ -5,7 +5,7 @@ export function VisionMissionSection() {
     <section className="py-16 lg:py-24 bg-muted/30">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="space-y-16">
-          
+
           {/* Vision Statement */}
           <div className="text-center">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
@@ -34,11 +34,11 @@ export function VisionMissionSection() {
             <p className="text-lg text-muted-foreground mb-8 text-center max-w-3xl mx-auto">
               At CCMWA, our ministry is guided by these biblical convictions:
             </p>
-            
+
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               <Card className="h-full">
                 <CardContent className="p-6 text-center">
-                  <div className="text-3xl mb-4">📖</div>
+
                   <h3 className="text-xl font-semibold mb-3 text-foreground">Scripture as Foundation</h3>
                   <p className="text-muted-foreground leading-relaxed">
                     God's Word is our unchanging authority for soul-care, mental wellness, and discipleship (2 Timothy 3:16–17).
@@ -48,7 +48,7 @@ export function VisionMissionSection() {
 
               <Card className="h-full">
                 <CardContent className="p-6 text-center">
-                  <div className="text-3xl mb-4">💜</div>
+
                   <h3 className="text-xl font-semibold mb-3 text-foreground">Compassionate Care</h3>
                   <p className="text-muted-foreground leading-relaxed">
                     We reflect Christ's love by offering grace-filled, empathetic, and personalized support (Colossians 3:12).
@@ -58,7 +58,7 @@ export function VisionMissionSection() {
 
               <Card className="h-full">
                 <CardContent className="p-6 text-center">
-                  <div className="text-3xl mb-4">🤝</div>
+
                   <h3 className="text-xl font-semibold mb-3 text-foreground">Integrity & Excellence</h3>
                   <p className="text-muted-foreground leading-relaxed">
                     We serve with honesty, professionalism, and a commitment to excellence (Proverbs 11:3).
@@ -68,7 +68,7 @@ export function VisionMissionSection() {
 
               <Card className="h-full">
                 <CardContent className="p-6 text-center">
-                  <div className="text-3xl mb-4">🌿</div>
+
                   <h3 className="text-xl font-semibold mb-3 text-foreground">Transformation in Christ</h3>
                   <p className="text-muted-foreground leading-relaxed">
                     True healing flows from the renewing power of the Spirit and Scripture (Romans 12:2).
@@ -78,7 +78,7 @@ export function VisionMissionSection() {
 
               <Card className="h-full md:col-span-2 lg:col-span-1">
                 <CardContent className="p-6 text-center">
-                  <div className="text-3xl mb-4">🏡</div>
+
                   <h3 className="text-xl font-semibold mb-3 text-foreground">Community & Discipleship</h3>
                   <p className="text-muted-foreground leading-relaxed">
                     We equip individuals and families to grow in Christ-centered community (Hebrews 10:24–25).
