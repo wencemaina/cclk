@@ -196,11 +196,11 @@ export default function MemberPortalPage() {
                 <div className="bg-muted/30 rounded-lg p-8 h-full">
                   <h3 className="text-xl font-semibold text-foreground mb-4">Why Church Group Memberships?</h3>
                   <p className="text-muted-foreground mb-4">
-                    Equip your congregation with the tools and training they need to provide biblical counseling 
+                    Equip your congregation with the tools and training they need to provide biblical counseling
                     and soul care to one another.
                   </p>
                   <p className="text-muted-foreground mb-4">
-                    Our Group Membership program helps churches build a culture of care where every member 
+                    Our Group Membership program helps churches build a culture of care where every member
                     can contribute to the spiritual and emotional wellbeing of the community.
                   </p>
                   <div className="mt-6 p-4 bg-primary/5 rounded-lg">
