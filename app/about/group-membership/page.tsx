@@ -164,26 +164,16 @@ export default function GroupMembershipPage() {
 
                         {/* Trusted Partners */}
                         <div className="mb-16">
-                            <div className="text-center mb-12">
-                                <h2 className="text-3xl font-bold text-foreground mb-4">Trusted Partners</h2>
-                                <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-                                    We collaborate with leading organizations to provide the best resources and training for your church.
-                                </p>
-                            </div>
+                          <div className="text-center mb-12">
+                            <h2 className="text-3xl font-bold text-foreground mb-4">Trusted Partners</h2>
+                            <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
+                              We collaborate with leading organizations to provide the best resources and training for your church.
+                            </p>
+                          </div>
 
-                            <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-                                {/* Placeholder for partner logos - in a real implementation, these would be actual logos */}
-                                {[1, 2, 3, 4, 5, 6, 7, 8].map((item) => (
-                                    <div key={item} className="flex items-center justify-center p-6 bg-muted/30 rounded-lg h-32">
-                                        <div className="text-center">
-                                            <div className="w-16 h-16 bg-primary/10 rounded-full mx-auto mb-2 flex items-center justify-center">
-                                                <Users className="h-8 w-8 text-primary" />
-                                            </div>
-                                            <p className="text-sm font-medium text-foreground">Partner {item}</p>
-                                        </div>
-                                    </div>
-                                ))}
-                            </div>
+                          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+                            {/* Partners will be added here */}
+                          </div>
                         </div>
 
                         {/* Contact Information */}
